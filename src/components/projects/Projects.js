@@ -1,6 +1,6 @@
 import React from 'react'
 import Title from '../layouts/Title'
-import { projectOne, projectTwo, projectThree } from "../../assets/index";
+import { projectOne, projectTwo, projectThree, projectFour } from "../../assets/index";
 import ProjectsCard from './ProjectsCard';
 
 const Projects = () => {
@@ -17,41 +17,43 @@ const Projects = () => {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
         <ProjectsCard
-          title="SOCIAL MEDIA CLONE"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
+          title="WhatsConnect"
+          des="WhatsConnect simplifies starting WhatsApp conversations without saving 
+              contacts. Enter a number, click 'chat,' and connect directly, saving no 
+              contacts. It stores contacts locally and generates QR codes for instant chatting. "
           src={projectOne}
+          gitlink="https://github.com/prabhatthakur672/whats-connect"
+          livelink="https://whats-connect.vercel.app/"
         />
         <ProjectsCard
-          title="E-commerce Website"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
+          title="CryptoChecker"
+          des=" CryptoChecker is a comprehensive tool providing all cryptocurrency-related data 
+          at your fingertips. From live prices to historical trends, it offers a complete 
+          overview. Stay informed and make informed decisions with CryptoChecker."
           src={projectTwo}
+          gitlink="https://github.com/prabhatthakur672/crypto-app"
+          livelink="https://crypto-app-five-tau.vercel.app/"
         />
         <ProjectsCard
-          title="Chatting App"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
+          title="Weather App"
+          des=" The Weather App simplifies accessing global weather forecasts by searching for 
+          any location. With just the name of a place, users can quickly retrieve accurate 
+          weather information. Stay informed about weather conditions worldwide effortlessly 
+          with the Weather App."
           src={projectThree}
+          gitlink="https://github.com/prabhatthakur672/weatherApp"
+          livelink="https://weather-site-six.vercel.app/"
         />
         <ProjectsCard
-          title="SOCIAL MEDIA CLONE"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={projectThree}
+          title="Text to Voice Generator"
+          des=" The Text-to-Voice Generator transforms written text into spoken words seamlessly.
+           Simply input your text, and it generates lifelike voices for various applications. 
+           From narration to accessibility, it offers versatile voice generation capabilities with ease."
+          src={projectFour}
+          gitlink="https://github.com/prabhatthakur672/Text-to-voice"
+          livelink="https://prabhatthakur672.github.io/Text-to-voice/"
         />
-        <ProjectsCard
-          title="E-commerce Website"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={projectOne}
-        />
-        <ProjectsCard
-          title="Chatting App"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={projectTwo}
-        />
+        
       </div>
     </section>
   );

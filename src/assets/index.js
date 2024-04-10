@@ -1,8 +1,9 @@
-import logo from "./images/logo.png";
-import bannerImg from "./images/bannerImg.png";
-import projectOne from "./images/projects/projectOne.jpg";
-import projectTwo from "./images/projects/projectTwo.jpg";
-import projectThree from "./images/projects/projectThree.jpeg";
+import logo from "./images/favicon.png";
+import bannerImg from "./images/a-removebg-preview.png";
+import projectOne from "./images/projects/whatsApp.png";
+import projectTwo from "./images/projects/crypto.png";
+import projectThree from "./images/projects/weather.png";
+import projectFour from "./images/projects/textvoice.png";
 import testimonialOne from "./images/testmonial/testimonialOne.png";
 import testimonialTwo from "./images/testmonial/testimonialTwo.png";
 import quote from "./images/testmonial/quote.png";
@@ -14,6 +15,7 @@ export {
   projectOne,
   projectTwo,
   projectThree,
+  projectFour,
   testimonialOne,
   testimonialTwo,
   quote,
